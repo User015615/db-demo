@@ -60,7 +60,11 @@ public class StoreInformation {
     }
 
 
-
+    @Override
+    public String toString() {
+        return "StoreInformation [storeId=" + storeId + ", storeName=" + storeName + ", storeDetail=" + storeDetail
+                + ", storePhoneNumber=" + storePhoneNumber + "]";
+    }
 
 }
 
